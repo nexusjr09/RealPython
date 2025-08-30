@@ -1,4 +1,14 @@
+#circumference of a circle 
+import math 
+radius = float(input("Enter the radius of the circle in cm : "))
+result = 2*math.pi*radius
+print(f"The circumference of the circle is : {round(result,2)}")
 
+#area of a circle  
+radius2 = float(input("Enter the radius of the circle in cm :"))
+area = math.pi*radius2**2
+print(f"The area of the circle is {round(area,2)}cm²")
+                                   
 
 #hypotenuse of a Triangle
 import math
