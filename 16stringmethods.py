@@ -28,6 +28,7 @@ print(position)
 #givenvariable.isaplha() [IT WILL RETURN TRUE IF IT ONLY CONTAINS ALPHABET (SPACE SHOULD NOT BE THERE) ELSE IT WILL THROW FALSE]
 #givevariable.count("what to count")
 #givenvariable.replace("letter to be replaced","newletter to be included")
+#print(help(str)) [SHOWS EVERYTHING RELATED TO STR]
 
 pahichan = input("Enter your full name : ")
 print(pahichan.capitalize())
@@ -36,5 +37,3 @@ print(pahichan.lower())
 print(pahichan.isalpha())
 print(pahichan.count("a"))
 print(pahichan.replace("a","z"))
-
-
