@@ -15,4 +15,8 @@ print(credit_card[-3])
 print(credit_card[-2]) #this means we can also use string slicing/indexing using negative numbers that counts  from reverse 
 
 #[step]
-print(credit_card[::3]) #0-969
+print(credit_card[::3]) 
+print(credit_card[-1:-5:-1]) #IN DEFAULT PYTHON GOES FROM LEFT TO RIGHT SO TO MAKE IT RIGHT --> WE NEED TO ADD -1 IN STEP PLACE 
+
+last_digits = credit_card[-1:-5:-1]
+print(f"User card : XXX-XXXX-{last_digits}")
