@@ -1,6 +1,7 @@
-#indexing = accessing elements of a sequence using []
+#indexing = accessing elements of a sequence using [] 
+#[START : END : STEP ]
 
-number = "9824-012-184" #starts from 0 and includes the character that is in 0 but it doesn't include the character of the ending index
+number = "9824-012-6767" #starts from 0 and includes the character that is in 0 but it doesn't include the character of the ending index
 print(number[0:5])
 
 name = "bigyanbaral"
@@ -12,3 +13,6 @@ print(credit_card[0:]) #if we don't add anything in the end python assumes that 
 print(credit_card[-1])
 print(credit_card[-3])
 print(credit_card[-2]) #this means we can also use string slicing/indexing using negative numbers that counts  from reverse 
+
+#[step]
+print(credit_card[::3]) #0-969
