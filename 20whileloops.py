@@ -6,9 +6,6 @@ while name == "":
 
 print(f"your name is {name}")
 
-food = input("Enter your fav food: ")
-while not food == "q":
-    print(f"You like {food} ! ")
-food =  input("Enter another food you like (q to quit) ")
+food = input("Enter your fav food " )
 
-print("bye")
+#REMAINING TOMMOROW !!!!
