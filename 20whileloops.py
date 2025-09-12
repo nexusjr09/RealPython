@@ -5,7 +5,3 @@ while name == "":
     name = input("Enter your name : ") #---> IF THIS LINE IS NOT ADDDED THEN YOU WILL ENTER IN A LOOP THAT WILL ONLY DISPLAY THE PRINT STATEMENT INFINITE TIMES
 
 print(f"your name is {name}")
-
-food = input("Enter your fav food " )
-
-#REMAINING TOMMOROW !!!!
