@@ -27,4 +27,5 @@ print(f"price 1 is {price1:08}")
 
 pro = 67.89
 print(f"pro is : {pro:<10}") #main data will be displayed on left and spaces on right 
-print(f"pro is {pro:>10}")
+print(f"pro is {pro:>10}") #right justifier 
+print(f"pro is {pro:^10}") #centre justifier
