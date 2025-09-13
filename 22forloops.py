@@ -11,3 +11,4 @@ for x in reversed(range(1,7,2)):
 credit = int(input("Enter your credit card no : "))
 for x in credit:
     print(x)
+
