@@ -8,6 +8,8 @@ print(fruits[0]) #number inside []will display the fruit acc to it
 print(fruits[0:3])
 print(fruits[::2])
 print(fruits[::-1])
-for x in fruits(0,3):
-    print(x)
-print()
+
+#using loops 
+for fruit in fruits:
+    print(fruit)
+print(dir(fruits))
