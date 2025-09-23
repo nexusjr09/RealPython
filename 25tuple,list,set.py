@@ -10,6 +10,3 @@ print(fruits[::2])
 print(fruits[::-1])
 
 #using loops 
-for fruit in fruits:
-    print(fruit)
-print(dir(fruits))
