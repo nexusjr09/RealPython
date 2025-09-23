@@ -9,4 +9,5 @@ print(fruits[0:3])
 print(fruits[::2])
 print(fruits[::-1])
 
-#using loops 
+#checking if value is within the list or not .
+print("apple" in fruits)
