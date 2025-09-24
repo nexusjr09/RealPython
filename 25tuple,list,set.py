@@ -35,3 +35,4 @@ fruits.sort()
 #reversing  the list 
 fruits.reverse() #MAIN THING TO UNDERSTAND HERE IS : IT WILL ONLY REVERSE THE VALUE OF FRUITS THAT WAS DISPLAYED BEFORE USING THIS FUNCTION . (JUST ABOVE VALUE)
 
+fruits.clear() #clears all the values inside it 
