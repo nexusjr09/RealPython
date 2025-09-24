@@ -30,4 +30,9 @@ print(fruits)
 
 #sorting values alphabetically : 
 fruits.sort()
-# no print statement needed while performing in this format 
+
+#indexing the values
+print(fruits.index("grapes"))
+
+#counting the values in the list 
+print(fruits.count("banana"))
