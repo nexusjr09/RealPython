@@ -31,8 +31,3 @@ print(fruits)
 #sorting values alphabetically : 
 fruits.sort()
 # no print statement needed while performing in this format 
-
-#reversing  the list 
-fruits.reverse() #MAIN THING TO UNDERSTAND HERE IS : IT WILL ONLY REVERSE THE VALUE OF FRUITS THAT WAS DISPLAYED BEFORE USING THIS FUNCTION . (JUST ABOVE VALUE)
-
-fruits.clear() #clears all the values inside it 
