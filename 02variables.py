@@ -1,6 +1,6 @@
 #strings only 
-first_name = "Bigyan"
-last_name = "Baral"
+first_name = "Nexus"
+last_name = "Junior"
 print(first_name)
 print(last_name)
 print(f"My name is {first_name} {last_name}")
