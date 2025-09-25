@@ -10,7 +10,7 @@ while True:
         price = float(input("Enter the price of the food in $ : "))
         foods.append(food)
         prices.append(price)
-print("------ YOUR TOTAL FOODS IN YOUR CART : ---------")
+print("---|| YOUR TOTAL FOODS IN YOUR CART : | | ----")
 for food in foods:
     print(food,end = " ")
 for price in prices:
