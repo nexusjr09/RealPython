@@ -17,4 +17,8 @@ snacks =  [["lays", "burger","pizza"],
 for snack in snacks:
     for sna in snack:
         print(sna,end = " ")
-    print() #It means: "after finishing one round of the inner loop, move to a new line."
+        print() #It means: "after finishing one round of the inner loop, move to a new line not every alphabet  will be print in new line only after completing full word 
+ #l
+ #a
+ #y
+ #s
