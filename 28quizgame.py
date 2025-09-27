@@ -12,3 +12,15 @@ options = (("A. Harka Sampang", "B. Balen Shah", "C. Sushila Karki", "D. Sagar D
            ("A. SherBahadur Deuba", "B. Pushpa Kamal Dahal", "C. KP Sharma Oli", "D. Ramchandra Poudel"),
            ("A. 7", "B. 9" , "C. 10" , "D. 8"))
 
+answers = (" C" ," A ", " B" , "C" , " D ")
+guesses = []
+score = 0 
+question_num = 0 
+
+for question in questions:
+    print("-----------------")
+    print(question)
+    for option in options[question_num]:
+        print(option)
+      
+question_num = question_num + 1 
