@@ -12,7 +12,7 @@ options = (("A. Harka Sampang", "B. Balen Shah", "C. Sushila Karki", "D. Sagar D
            ("A. SherBahadur Deuba", "B. Pushpa Kamal Dahal", "C. KP Sharma Oli", "D. Ramchandra Poudel"),
            ("A. 7", "B. 9" , "C. 10" , "D. 8"))
 
-answers = (" C" ," A ", " B" , "C" , " D ")
+answers = ("C" ,"A", "B" , "C" , "D")
 guesses = []
 score = 0 
 question_num = 0 
@@ -22,5 +22,13 @@ for question in questions:
     print(question)
     for option in options[question_num]:
         print(option)
-      
-question_num = question_num + 1 
+    guess = input("Enter the answer  (A,B,C,D) : ").upper()
+    guesses.append(guess)
+    if guess == answers[question_num]:
+        score = score + 1 
+        print("Correct ! ")
+    else:
+        print("Incorrect !")
+        print(f"The correct answer is {answers[question_num]}")
+    question_num = question_num + 1
+
