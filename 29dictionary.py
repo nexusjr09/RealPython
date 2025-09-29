@@ -21,6 +21,7 @@ print(capitals) #removes the value from the dictionary !
 #capitals.clear()-----> clears all the value inside dictionary !
 
 #KEYS 
-key = capitals.keys()
-for ke in capitals.keys():
-    print(ke)
+keys = capitals.keys()
+for key in capitals.keys():
+    print(key)
+
