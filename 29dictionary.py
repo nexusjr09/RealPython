@@ -19,4 +19,8 @@ capitals.pop("Nepal")
 print(capitals) #removes the value from the dictionary ! 
 #capitals.popitem() ------> removes the latest value added . 
 #capitals.clear()-----> clears all the value inside dictionary !
-    
+
+#KEYS 
+keys = capitals.keys()
+for key in capitals.keys():
+    print(key)
